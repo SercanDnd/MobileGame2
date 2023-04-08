@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     GameObject _clickedTurret;
     void Start()
     {
-       
+       print("sdadas");
     }
 
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
                         }
                         else if (raycastHit.transform.GetComponent<TurretUiManager>()._isPanelOpen == true)
                         {
-                            Debug.Log("Ayný Obje");
+                            Debug.Log("Aynï¿½ Obje");
                         }
                     }
                     else

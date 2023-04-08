@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7835caa2-c1a7-46b1-b295-30514a5402ee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor/Floor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Mortar/Fatty_Mortar-lambert2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Mortar/Fatty_Mortar-lambert2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Portals/PortalMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Portals/PortalMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Standart/sd.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Standart/sd.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/cell_graph_0/cell_graph_0_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/cell_graph_0/cell_graph_0_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/floor_pavement_02_graph_0/floor_pavement_02_graph_0_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/floor_pavement_02_graph_0/floor_pavement_02_graph_0_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Goblin/Goblin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Goblin/Goblin.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Eye.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Hair.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/TurretBottom/TurretsBottom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/TurretBottom/TurretsBottom.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O9udbgqM6RiJexjkrWVUu4Au1a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.2.4f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\UnityProjects\MobileGame2 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\UnityProjects\MobileGame2" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7835caa2-c1a7-46b1-b295-30514a5402ee" name="Changes" comment="" />
+      <created>1680985209272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680985209272</updated>
+      <workItem from="1680985214762" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
