@@ -66,13 +66,10 @@ public class TurretStateMachine
         }
         return null;
     }
-    
-
     public void SetNormalStates(ITurretManager from,ITurretManager to,System.Func<bool> condition)
     {
         _stateTransitions.Add(new TurretStateTransition(from, to, condition));
     }
-
     public void SetAnyStates(ITurretManager to,System.Func<bool> condition)
     {
         _anyTransitions.Add(new TurretStateTransition(null, to, condition));
@@ -83,10 +80,7 @@ public class TurretStateTransition
 {
     public ITurretManager From { get; set; }
     public ITurretManager To { get; set; }
-
     public System.Func<bool> Condition { get; }
-
-
     public TurretStateTransition(ITurretManager from,ITurretManager to,System.Func<bool> condition)
     {
         From = from;

@@ -32,15 +32,8 @@ public class AiEntity : MonoBehaviour
     public bool _isInAttackRange;
 
     public Animator anim;
-    private void Awake()
-    {
-        _stateMachine = new AiStateMachine(this,_isDeath);
-       
-
-       
-    }
-
-
+    private void Awake() =>_stateMachine = new AiStateMachine(this,_isDeath);
+    
     private void Start()
     {
         IAiManager idleState = new AiIdleState();
@@ -54,8 +47,6 @@ public class AiEntity : MonoBehaviour
         _stateMachine.SetNormalStates(attackState, idleState, () => _isInAttackRange == false && _target == null);
         _stateMachine.SetAnyStates(DeathState, () => _health <= 0);
         _stateMachine.SetState(idleState);
-        
-        
     }
 
 
@@ -70,8 +61,7 @@ public class AiEntity : MonoBehaviour
     }
 
 
-
-    public void SetEnemy()
+    private void SetEnemy()
     {
         Collider[] col = Physics.OverlapSphere(transform.position, _checkRange, _checkEnemyLayer);
         Collider nearestEnemy = null;
@@ -86,10 +76,7 @@ public class AiEntity : MonoBehaviour
                     minDistance = distance;
                     nearestEnemy = collider;
                 }
-
-
             }
-
         }
         else if(col.Length<=0)
         {
@@ -104,24 +91,17 @@ public class AiEntity : MonoBehaviour
         {
             _target = null;
         }
-        
 
     }
 
 
-    public void Death()
+    private void Death()
     {
-        if (_isDeath == false)
-        {
-           
-                GetComponent<NavMeshAgent>().isStopped = true;
-                anim.SetTrigger("Death");
-                Invoke("DeathTimer", 3f);
-                _isDeath = true;
-                
-          
-            
-        }
+        if (_isDeath != false) return;
+        GetComponent<NavMeshAgent>().isStopped = true;
+        anim.SetTrigger("Death");
+        Invoke("DeathTimer", 3f);
+        _isDeath = true;
     }
     public void DeathTimer()
     {

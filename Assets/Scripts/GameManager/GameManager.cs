@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     GameObject _clickedTurret;
     void Start()
     {
-       print("sdadas");
+     
     }
 
     // Update is called once per frame
@@ -18,8 +18,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-    public void ClikedObject()
+    private void ClikedObject()
     {
         RaycastHit raycastHit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -37,9 +36,9 @@ public class GameManager : MonoBehaviour
                         {
                             raycastHit.transform.GetComponent<TurretUiManager>().OpenMenuAnimation();
                         }
-                        else if (raycastHit.transform.GetComponent<TurretUiManager>()._isPanelOpen == true)
+                        else if (raycastHit.transform.GetComponent<TurretUiManager>()._isPanelOpen)
                         {
-                            Debug.Log("Ayn� Obje");
+                            Debug.Log("Aynı Obje");
                         }
                     }
                     else
@@ -56,12 +55,10 @@ public class GameManager : MonoBehaviour
                             
                         }
                     }
-                    
-
                 }
                 else
                 {
-                    if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen == true)
+                    if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen)
                     {
                         _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
                         _clickedTurret = null;

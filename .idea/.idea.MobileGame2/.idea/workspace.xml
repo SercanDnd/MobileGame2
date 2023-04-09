@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7835caa2-c1a7-46b1-b295-30514a5402ee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor/Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor/Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Mortar/Fatty_Mortar-lambert2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Mortar/Fatty_Mortar-lambert2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Portals/PortalMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Portals/PortalMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Standart/sd.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Standart/sd.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/cell_graph_0/cell_graph_0_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/cell_graph_0/cell_graph_0_material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/floor_pavement_02_graph_0/floor_pavement_02_graph_0_material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/SubstanceMaterials/floor_pavement_02_graph_0/floor_pavement_02_graph_0_material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MobileGame2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MobileGame2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AiManager/AiAttackState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AiManager/AiAttackState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AiManager/AiEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AiManager/AiEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Goblin/Goblin.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Goblin/Goblin.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Eye.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Eye.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/GoblinV2/GoblinV2Hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/TurretBottom/TurretsBottom.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/TurretBottom/TurretsBottom.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/New Universal Render Pipeline Asset_Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurretManager/ITurretManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurretManager/ITurretManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager/ButtonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager/ButtonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager/TurretUiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager/TurretUiManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/Events.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/WaveManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,6 +37,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -87,6 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1680985209272</updated>
       <workItem from="1680985214762" duration="22000" />
+      <workItem from="1680985829338" duration="13000" />
+      <workItem from="1680985949918" duration="237000" />
+      <workItem from="1681042662828" duration="6217000" />
     </task>
     <servers />
   </component>
@@ -96,6 +96,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

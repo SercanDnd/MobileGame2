@@ -8,17 +8,6 @@ public class ButtonController : MonoBehaviour
 
     public GameObject _balistaObject;
     public GameObject _mortarObject;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void ActiveBalista()
     {

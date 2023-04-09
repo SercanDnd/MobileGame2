@@ -11,19 +11,6 @@ public class TurretUiManager : MonoBehaviour
     public GameObject TurretPropPanel;
     public bool _isPanelOpen;
     
-    void Start()
-    {
-        
-    }
-
-    
-    void Update()
-    {
-        
-    }
-
-    
-
     public void OpenMenuAnimation()
     {
        this.UiBackPanel.transform.DOScale(new Vector3(1f, UiBackPanel.transform.localScale.y, 1), 0.3f).OnComplete(() => UiBackPanel.transform.DOScale(new Vector3(UiBackPanel.transform.localScale.x, 1, 0), 0.3f).OnComplete(() => _isPanelOpen = true));
@@ -38,7 +25,7 @@ public class TurretUiManager : MonoBehaviour
 
     public void PanelController()
     {
-        if (_isPanelOpen == true)
+        if (_isPanelOpen)
         {
             if (GetComponent<TurretEntity>().TurretState == TurretEntity.States.passive)
             {
