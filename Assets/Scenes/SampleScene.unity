@@ -1746,6 +1746,7 @@ MonoBehaviour:
   waveEnemyCounts: 030000000400000006000000
   currentDifficulty: 0
   spawnedEnemyCount: 0
+  EnemyLists: []
 --- !u!4 &351389951
 Transform:
   m_ObjectHideFlags: 0
@@ -9251,6 +9252,10 @@ PrefabInstance:
     - target: {fileID: 823067891, guid: 738422f16a204ac47bd06e362be62b4c, type: 3}
       propertyPath: _healt
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277535043509973301, guid: 738422f16a204ac47bd06e362be62b4c, type: 3}
+      propertyPath: _isPanelOpen
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7402584572311289335, guid: 738422f16a204ac47bd06e362be62b4c, type: 3}
       propertyPath: m_Name

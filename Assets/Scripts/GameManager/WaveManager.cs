@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 
 public class WaveManager : MonoBehaviour
 {
@@ -14,7 +13,7 @@ public class WaveManager : MonoBehaviour
     public int currentDifficulty;
     public int spawnedEnemyCount;
     private Coroutine _spawnCoroutine;
-
+    public List<EnemyList> EnemyLists;
     private void Start()
     {
         currentDifficulty = 0;
@@ -34,21 +33,20 @@ public class WaveManager : MonoBehaviour
         //Check wave done
         if (difficulty == waveEnemyCounts[^1])
         {
-            Debug.LogError("Wave bitti");
+            Debug.Log("Wave bitti");
             //wave done
         }
         else
         {
             NextWave();
         }
-
-     
     }
+    
     private void NextWave()
     {
         spawnedEnemyCount = 0;
         currentDifficulty++;
-        Debug.LogError("Turn bitti");
+        Debug.Log("Turn bitti");
         StartCoroutine(SpawnWave(waveEnemyCounts[currentDifficulty]));
     }
     private Vector3 EnemySpawnTransform()
@@ -56,8 +54,20 @@ public class WaveManager : MonoBehaviour
         var randomSpawnTransform = (int)UnityEngine.Random.Range(0, enemySpawnTransforms.Count);
         return enemySpawnTransforms[randomSpawnTransform].transform.position;
     }
+}
 
-  
+[System.Serializable]
+public class EnemyList
+{
+    public int level;
+    public List<Enemies> EnemiesList;
+    
+}
+
+[System.Serializable]
+public class Enemies
+{
+    
 }
 
 

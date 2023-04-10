@@ -58,11 +58,15 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen)
+                    if (_clickedTurret != null)
                     {
-                        _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
-                        _clickedTurret = null;
+                        if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen)
+                        {
+                            _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
+                            _clickedTurret = null;
+                        }
                     }
+                   
                 }
             }
         }
