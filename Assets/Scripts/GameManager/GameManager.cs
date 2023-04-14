@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    GameObject _clickedTurret;
+   [SerializeField] GameObject _clickedTurret;
     void Start()
     {
      
@@ -58,15 +58,31 @@ public class GameManager : MonoBehaviour
                 }
                 else
                 {
-                    if (_clickedTurret != null)
+                    /* if (_clickedTurret != null)
+                     {
+                         if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen)
+                         {
+                             _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
+
+                         }
+                     }*/
+                    if (raycastHit.transform.gameObject == _clickedTurret)
                     {
                         if (_clickedTurret.transform.GetComponent<TurretUiManager>()._isPanelOpen)
                         {
                             _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
-                            _clickedTurret = null;
+
                         }
+                        return;
                     }
-                   
+                    else
+                    {
+                        _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
+                        _clickedTurret = null;
+                    }
+
+                    _clickedTurret.transform.GetComponent<TurretUiManager>().CloseMenuAnimation();
+                    _clickedTurret = null;
                 }
             }
         }

@@ -6,6 +6,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEditor.Timeline.Actions;
 using UnityEngine.AI;
+using static UnityEngine.GraphicsBuffer;
 
 public class AiEntity : MonoBehaviour
 {
@@ -32,6 +33,11 @@ public class AiEntity : MonoBehaviour
     public bool _isInAttackRange;
 
     public Animator anim;
+    public GameObject WizzardBulletPrefab;
+    public GameObject WizzardUPrefab;
+    public GameObject WizzardShootPointRef;
+   [SerializeField] int _wizzardShootCounter;
+    [SerializeField] float Ydistance;
     private void Awake() =>_stateMachine = new AiStateMachine(this,_isDeath);
     
     private void Start()
@@ -114,5 +120,41 @@ public class AiEntity : MonoBehaviour
         {
             _target.GetComponent<TurretEntity>()._healt -= _attackPower;
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        _health -= damage;
+    }
+    
+    public void WizzardShoot()
+    {
+        
+       
+
+        if (_wizzardShootCounter >= 4)
+        {
+            _wizzardShootCounter=0;
+            Vector3 target = new Vector3(_target.position.x, Ydistance, _target.position.z);
+            GameObject BulletU = Instantiate(WizzardUPrefab, target,Quaternion.Euler(new Vector3(90,0,0)));
+            BulletU.GetComponent<Rigidbody>().AddForce(Vector3.down * 1000);
+            
+
+
+
+        }
+        else
+        {
+            GameObject bulletGO = Instantiate(WizzardBulletPrefab, WizzardShootPointRef.transform.position,WizzardShootPointRef.transform.rotation); // Mermi objesini oluþturur
+            bulletGO.GetComponent<Rigidbody>().AddForce(WizzardShootPointRef.transform.forward * bulletGO.GetComponent<WizzardBullet>().speed);
+            WizzardBullet bullet = bulletGO.GetComponent<WizzardBullet>(); // Mermi bileþenine eriþir
+            _wizzardShootCounter++;
+
+            if (bullet != null) // Eðer mermi bileþeni varsa
+            {
+                bullet.Seek(_target);
+            }
+        }
+        
     }
 }

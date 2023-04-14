@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - TurretArea
+  - TurretUi
+  - Enemy
+  - Goblin
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -13,9 +17,9 @@ TagManager:
   - Water
   - UI
   - TurretArea
-  - 
-  - 
-  - 
+  - Goblin
+  - Post
+  - NoPost
   - 
   - 
   - 

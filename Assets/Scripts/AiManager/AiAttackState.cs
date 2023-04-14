@@ -38,7 +38,8 @@ public class AiAttackState : IAiManager
                 agent.transform.GetComponent<Animator>().SetBool("Attack", true);
                 break;
             case AiEntity.AttackType.wizzard:
-                Debug.Log("Wizzard Attack");
+               // Debug.Log("Wizzard Attack");
+                agent.transform.GetComponent<Animator>().SetBool("Attack", true);
                 break;
             case AiEntity.AttackType.shooter:
                 Debug.Log("Shooter Attack");
